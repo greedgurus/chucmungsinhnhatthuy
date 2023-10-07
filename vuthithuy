@@ -12,9 +12,16 @@
       margin: 0;
       padding: 0;
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
       height: 100vh;
+    }
+
+    #cake {
+      width: 200px;
+      height: auto;
+      margin-bottom: 20px;
     }
 
     h1 {
@@ -24,10 +31,17 @@
 </head>
 <body>
 
+<img id="cake" src="cake.png" alt="Bánh Sinh Nhật">
+
 <script>
-    const birthdayPerson = "Tên Người Sinh Nhật";
-  const birthdayMessage = `Chúc mừng sinh nhật, ${Vũ Thị Thúy}! 🎉🎂`;
-  document.body.innerHTML = `<h1>${birthdayMessage}</h1>`;
+  // Thay đổi tên người có sinh nhật tại đây
+  const birthdayPerson = "Tên Người Sinh Nhật";
+
+  // Tạo câu chúc mừng sinh nhật
+  const birthdayMessage = `Chúc mừng sinh nhật, ${Vũ Thị Thúy}! Tuổi 23 🎉🎂`;
+
+  // Hiển thị thông điệp trên trang web
+  document.body.innerHTML += `<h1>${birthdayMessage}</h1>`;
 </script>
 
 </body>
