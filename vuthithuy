@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -24,13 +25,8 @@
 <body>
 
 <script>
-  // Thay đổi tên người có sinh nhật tại đây
-  const birthdayPerson = "Tên Người Sinh Nhật";
-
-  // Tạo câu chúc mừng sinh nhật
+    const birthdayPerson = "Tên Người Sinh Nhật";
   const birthdayMessage = `Chúc mừng sinh nhật, ${Vũ Thị Thúy}! 🎉🎂`;
-
-  // Hiển thị thông điệp trên trang web
   document.body.innerHTML = `<h1>${birthdayMessage}</h1>`;
 </script>
 
